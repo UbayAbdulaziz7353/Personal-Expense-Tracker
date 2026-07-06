@@ -1,33 +1,54 @@
-# Personal Expense Tracker
+# 💰 Personal Expense Tracker
 
-A Python-based command-line application developed as part of **SFWRTECH 4SA3 – Software Architecture** at McMaster University.
+A Python-based command-line application developed as part of **SFWRTECH 4SA3 – Software Architecture** at **McMaster University**.
 
-## Overview
+The application enables users to manage personal expenses, store data in a cloud-hosted PostgreSQL database using Supabase, and perform real-time currency conversion through a REST API.
 
-The Personal Expense Tracker helps users manage their daily expenses by allowing them to:
+---
+
+# 📌 Features
 
 - Add expenses
-- View recorded expenses
+- View saved expenses
 - Delete expenses
 - Calculate total spending
-- Convert total spending into different currencies using a live REST API
-
-Expense data is stored in a cloud-hosted PostgreSQL database using **Supabase**.
-
----
-
-## Features
-
-- Command-line interface (CLI)
-- Cloud database integration with PostgreSQL (Supabase)
-- Real-time currency conversion
-- Expense management
-- Category-based organization
-- Modular object-oriented architecture
+- Convert total spending into different currencies
+- Store expenses in a PostgreSQL database
+- Cloud database using Supabase
+- Modular software architecture
 
 ---
 
-## Technologies
+# 🏗 Software Architecture
+
+This project follows a modular architecture by separating responsibilities into independent components.
+
+It also demonstrates several software design patterns:
+
+- Singleton Pattern
+- Strategy Pattern
+- Factory Pattern
+
+---
+
+# 📁 Project Structure
+
+```
+Personal-Expense-Tracker
+│
+├── api/
+├── database/
+├── models/
+├── services/
+├── utils/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🛠 Technologies
 
 - Python
 - PostgreSQL
@@ -38,45 +59,52 @@ Expense data is stored in a cloud-hosted PostgreSQL database using **Supabase**.
 
 ---
 
-## Software Design Patterns
+# 🚀 Installation
 
-This project applies several software design patterns, including:
+Clone the repository
 
-- Singleton Pattern
-- Strategy Pattern
-- Factory Pattern
+```bash
+git clone https://github.com/UbayAbdulaziz7353/Personal-Expense-Tracker.git
+```
+
+Go to the project
+
+```bash
+cd Personal-Expense-Tracker
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+python3 main.py
+```
 
 ---
 
-## Project Structure
-
-```
-api/
-database/
-models/
-services/
-utils/
-main.py
-requirements.txt
-```
-
----
-
-## Learning Outcomes
+# 🎓 Learning Outcomes
 
 This project demonstrates:
 
 - Software Architecture
-- Object-Oriented Design
 - UML Modeling
+- Object-Oriented Design
 - Cloud Database Integration
 - REST API Integration
-- Version Control using Git
+- Software Design Patterns
+- Git Version Control
 
 ---
 
-## Author
+# 👨‍💻 Author
 
 **Ubay Abdulaziz**
+
+Software Engineering Student
 
 McMaster University
