@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="images/logo.png" alt="Personal Expense Tracker Logo" width="220"/>
+</p>
+
+<h1 align="center">Personal Expense Tracker</h1>
+
+<p align="center">
+  A Python-based command-line expense management application built using Software Architecture principles.
+</p>
+
+
 # 💰 Personal Expense Tracker
 
 A Python-based command-line application developed as part of **SFWRTECH 4SA3 – Software Architecture** at **McMaster University**.
