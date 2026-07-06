@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.png" alt="Personal Expense Tracker Logo" width="220"/>
+  <img src="Images/logo.png" alt="Personal Expense Tracker Logo" width="220"/>
 </p>
 
 <h1 align="center">Personal Expense Tracker</h1>
